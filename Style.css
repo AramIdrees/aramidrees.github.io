@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+}
+body video{
+    position: fixed;
+    z-index: -1;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+header h1 a{
+    color: black;
+    padding-top: 0;
+    padding-left: 18px;
+}
+header ul{
+    padding-right: 18px;
+    display: flex;
+    
+}
+header ul li{
+    list-style: none;
+    padding: 10px;
+    
+}
+header ul li:hover{
+    border: 2px solid;
+}
+header ul li a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+@media screen and (max-width: 580px){
+    #FirstUl{
+        display: none;
+    }
+}
+
+#bar{
+    font-size: 2.5em;
+    padding-top: 17px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+@media screen and (min-width: 580px){
+    #bar{
+        display: none;
+    }
+}
+.MobileUl{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 18px;
+    display: none;
+    background-color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
+}
+.MobileUl li{
+    list-style: none;
+    padding: 10px;
+
+    
+}
+.MobileUl li:hover{
+    border: 2px solid;
+
+}
+.MobileUl li a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+@media screen and (min-width: 580px){
+    .MobileUl{
+        display: none;
+    }
+}
+
+.heyim{
+    color: azure;
+    margin-top: 0;
+    text-align: center;
+    background-color: #27282b;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.heyim h1{
+    font-size: 35px;
+    
+}
+#Work{
+    
+    margin-top: 0;
+    text-align: center;
+}
+.box1{
+    border: 2px solid;
+    color: azure;
+    width: 25%;
+   
+    margin: 15px;
+}
+img{
+    width: 100%;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 75%;
+
+}
+
+#workh2{
+    padding-top: 50px;
+    font-size: 35px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    color: azure;
+
+}
+.box1 a{
+    text-decoration: none;
+    color: azure;
+}
+.box1:hover{
+    color: #be3144;
+    background-color: #be3144;
+}
+.bimg{
+    font-size: 80%;
+}
+.btn{
+    border: 2px solid;
+    color: azure;
+    width:20%;
+    height: 30px;  
+    margin: 0 auto;
+    margin-top: 20px;  
+}
+.btn a{
+    color: azure;
+    text-decoration: none;
+    font-size: 100%;
+}
+.btn:hover{
+    background-color: #be3144;
+    color: #be3144;
+}
+
+#contact{
+    background-color: #27282b;
+   
+    color: azure;
+    text-align: center;
+   
+}
+#contact h2{
+    margin-top: 0;
+    padding-top: 50px;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+#contact p{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: azure;
+    padding: 20px;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+#ing:hover{
+    color: #833AB4;
+}
+#twitter:hover{
+    color:  #1DA1F2;
+}
+#facebook:hover{
+    color: #4267B2;
+}
+#yt:hover{
+    color: red;
+}
+footer{
+    background-color: #27282b;
+}
+footer p{
+    color: lightgray;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}

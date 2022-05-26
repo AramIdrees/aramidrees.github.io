@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #27282b;
+}
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+header h1 a{
+    color: black;
+    padding-top: 0;
+    padding-left: 18px;
+}
+header ul{
+    padding-right: 18px;
+    display: flex;
+    
+}
+header ul li{
+    list-style: none;
+    padding: 10px;
+    
+}
+header ul li:hover{
+    border: 2px solid;
+}
+header ul li a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+@media screen and (max-width: 580px){
+    #FirstUl{
+        display: none;
+    }
+}
+
+#bar{
+    font-size: 2.5em;
+    padding-top: 17px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+@media screen and (min-width: 580px){
+    #bar{
+        display: none;
+    }
+}
+.MobileUl{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 18px;
+    display: none;
+    background-color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
+}
+.MobileUl li{
+    list-style: none;
+    padding: 10px;
+
+    
+}
+.MobileUl li:hover{
+    border: 2px solid;
+
+}
+.MobileUl li a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+@media screen and (min-width: 580px){
+    .MobileUl{
+        display: none;
+    }
+}
+.aboutmesection{
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+.myimg{
+    align-items: center;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: red;
+}
+.aboutme h1{
+    color: azure;
+}
+.aboutme p{
+    color: lightgray;
+    font-size: 15px;
+}
+.aboutme2 h1{
+    text-align: center;
+    color: azure;
+}
+.aboutme2 p{
+    color: lightgray;
+    font-size: 15px;
+    text-align: center;
+}
+.aboutme2 ul{
+    text-align: center;
+}
+.aboutme2 ul li{
+    color: lightgray;
+    list-style: none;
+}
+
+footer{
+    background-color: #27282b;
+}
+footer p{
+    color: lightgray;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}

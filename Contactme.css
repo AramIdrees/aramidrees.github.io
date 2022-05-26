@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #27282b;
+}
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+header h1 a{
+    color: black;
+    padding-top: 0;
+    padding-left: 18px;
+}
+header ul{
+    padding-right: 18px;
+    display: flex;
+    
+}
+header ul li{
+    list-style: none;
+    padding: 10px;
+    
+}
+header ul li:hover{
+    border: 2px solid;
+}
+header ul li a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+@media screen and (max-width: 580px){
+    #FirstUl{
+        display: none;
+    }
+}
+
+#bar{
+    font-size: 2.5em;
+    padding-top: 17px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+@media screen and (min-width: 580px){
+    #bar{
+        display: none;
+    }
+}
+.MobileUl{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 18px;
+    display: none;
+    background-color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    
+}
+.MobileUl li{
+    list-style: none;
+    padding: 10px;
+
+    
+}
+.MobileUl li:hover{
+    border: 2px solid;
+
+}
+.MobileUl li a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+}
+@media screen and (min-width: 580px){
+    .MobileUl{
+        display: none;
+    }
+}
+#h11{
+    color: azure;
+    text-align: center;
+    padding-bottom :10px;
+}
+form{
+    border: ;
+    border-radius: 15px;
+    color: azure;
+    width: 50%;
+    margin-left: 15px;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+form input{
+    width: 90%;
+    height: 25px;
+    border-radius: 10px; 
+    padding: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+form input:hover{
+    border: 2px solid;
+    color: blue;
+}
+
+form textarea{
+    width: 90%;
+    border-radius: 10px;
+    padding: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#submit{
+    font-size: 100%;
+    width: 25%;
+    height: 25px;
+    border-radius: 10px;
+}
+.rightside{
+    padding-right: 80px;
+}
+.div1{
+    display: flex;
+    font-size: 25px;
+    color: lightgray;
+}
+.div1 p{
+    padding-left: 9px;
+}
+.div1 i{
+    padding-top: 27px;
+}
+.div2{
+    display: flex;
+}
+.div2 a{
+    padding: 20px;
+    font-size: 35px;
+    color: lightgray;
+    text-decoration: none;
+}
+@media screen and (max-width: 750px){
+    .all{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    form{
+         width: 80%;
+         text-align: center;
+         
+    }
+    form input{
+        text-align: center;
+    }
+
+
+}
+footer{
+    background-color: ;
+    margin-top: 300px;
+}
+footer p{
+    color: lightgray;
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.instagram:hover{
+    color: #833AB4;
+}
+.twitter:hover{
+    color:  #1DA1F2;
+}
+.facebook:hover{
+    color: #4267B2;
+}
+.github:hover{
+    color: orange;
+}
